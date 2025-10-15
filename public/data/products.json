@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "name": "Fundación",
+    "author": "Isaac Asimov",
+    "price": 8500,
+    "category": "ciencia-ficcion",
+    "description": "Clásico de Isaac Asimov sobre la caída de un imperio galáctico.",
+    "imageUrl": "/img/fundacion.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Dune",
+    "author": "Frank Herbert",
+    "price": 9200,
+    "category": "ciencia-ficcion",
+    "description": "Épica saga en el desértico planeta Arrakis por Frank Herbert.",
+    "imageUrl": "/img/dune.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Neuromante",
+    "author": "William Gibson",
+    "price": 7800,
+    "category": "cyberpunk",
+    "description": "Obra fundacional del cyberpunk por William Gibson.",
+    "imageUrl": "/img/neuromante.jpg"
+  },
+  {
+    "id": "4",
+    "name": "El juego de Ender",
+    "author": "Orson Scott Card",
+    "price": 8100,
+    "category": "ciencia-ficcion",
+    "description": "Estrategia militar interestelar por Orson Scott Card.",
+    "imageUrl": "/img/ender-game.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Guía del autoestopista galáctico",
+    "author": "Douglas Adams",
+    "price": 7500,
+    "category": "ciencia-ficcion-humor",
+    "description": "Comedia sci-fi absurda por Douglas Adams.",
+    "imageUrl": "/img/guia-autoestopista.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Solaris",
+    "author": "Stanisław Lem",
+    "price": 6900,
+    "category": "ciencia-ficcion-filosofica",
+    "description": "Reflexión sobre la conciencia y el amor por Stanisław Lem.",
+    "imageUrl": "/img/solaris.jpg"
+  },
+  {
+    "id": "7",
+    "name": "¿Sueñan los androides con ovejas eléctricas?",
+    "author": "Philip K. Dick",
+    "price": 8300,
+    "category": "ciencia-ficcion",
+    "description": "Novela que inspiró Blade Runner, por Philip K. Dick.",
+    "imageUrl": "/img/androides-ovejas.jpg"
+  },
+  {
+    "id": "8",
+    "name": "La mano izquierda de la oscuridad",
+    "author": "Ursula K. Le Guin",
+    "price": 7900,
+    "category": "ciencia-ficcion",
+    "description": "Exploración de género y sociedad por Ursula K. Le Guin.",
+    "imageUrl": "/img/mano-izquierda-oscuridad.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Hyperion",
+    "author": "Dan Simmons",
+    "price": 8900,
+    "category": "space-opera",
+    "description": "Space opera épica inspirada en los Cuentos de Canterbury.",
+    "imageUrl": "/img/hyperion.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Ready Player One",
+    "author": "Ernest Cline",
+    "price": 7200,
+    "category": "ciencia-ficcion",
+    "description": "Aventura en un mundo virtual lleno de referencias ochenteras.",
+    "imageUrl": "/img/ready-player-one.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Snow Crash",
+    "author": "Neal Stephenson",
+    "price": 7700,
+    "category": "cyberpunk",
+    "description": "Hiro Protagonist combate un virus informático en el metaverso.",
+    "imageUrl": "/img/snow-crash.jpg"
+  },
+  {
+    "id": "12",
+    "name": "La guerra interminable",
+    "author": "Joe Haldeman",
+    "price": 7100,
+    "category": "militar",
+    "description": "Relato de guerra interestelar con efectos de la relatividad.",
+    "imageUrl": "/img/guerra-interminable.jpg"
+  },
+  {
+    "id": "13",
+    "name": "El hombre en el castillo",
+    "author": "Philip K. Dick",
+    "price": 6800,
+    "category": "historia-alternativa",
+    "description": "Universo donde los aliados perdieron la Segunda Guerra Mundial.",
+    "imageUrl": "/img/hombre-castillo.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Los desposeídos",
+    "author": "Ursula K. Le Guin",
+    "price": 7400,
+    "category": "ciencia-ficcion-social",
+    "description": "Análisis de dos sistemas políticos opuestos en mundos gemelos.",
+    "imageUrl": "/img/desposeidos.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Altered Carbon",
+    "author": "Richard K. Morgan",
+    "price": 8200,
+    "category": "cyberpunk",
+    "description": "Investigan un suicidio en un mundo donde las conciencias se transfieren.",
+    "imageUrl": "/img/altered-carbon.jpg"
+  }
+]

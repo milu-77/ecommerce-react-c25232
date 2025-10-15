@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "ciencia-ficcion",
+    "descripcion": "Obras clásicas y fundamentales del género de ciencia ficción"
+  },
+  {
+    "id": "2", 
+    "name": "cyberpunk",
+    "descripcion": "Tecnología avanzada con distopías urbanas y realidades virtuales"
+  },
+  {
+    "id": "3",
+    "name": "ciencia-ficcion-humor",
+    "descripcion": "Ciencia ficción con elementos de comedia y sátira"
+  },
+  {
+    "id": "4",
+    "name": "ciencia-ficcion-filosofica",
+    "descripcion": "Reflexiones sobre conciencia, existencia y la naturaleza humana"
+  },
+  {
+    "id": "5",
+    "name": "space-opera",
+    "descripcion": "Épicas aventuras espaciales a gran escala"
+  },
+  {
+    "id": "6",
+    "name": "militar",
+    "descripcion": "Estrategias y conflictos interestelares con enfoque bélico"
+  },
+  {
+    "id": "7",
+    "name": "historia-alternativa",
+    "descripcion": "Realidades con eventos históricos diferentes"
+  },
+  {
+    "id": "8",
+    "name": "ciencia-ficcion-social",
+    "descripcion": "Exploración de estructuras sociales y sistemas políticos"
+  }
+]
