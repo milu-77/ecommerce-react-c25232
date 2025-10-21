@@ -1,10 +1,10 @@
 import { useState } from "react";
 import SciFiButton from "../SciFiButton/SciFiButton";
 import "./ItemDetail.css";
-import { useCartContext } from "../../context/CartContext/useCartContext";
-
+import { useCartContext } from "../../context/CartContext/useCartContext"
+ 
 function ItemDetail({ ...product }) {
-  const {addItem} =useCartContext();
+   const {addItem} = useCartContext()
 
   const [quantity, setQuantity] = useState(1);
   const handleQuantityChange = (value) => {
