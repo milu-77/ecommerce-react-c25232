@@ -1,10 +1,10 @@
 import React from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
-import { useCartContext } from '../../context/CartContext/useCartContext'
+import { UseCartContext } from '../../context/CartContext/useCartContext'
  
 const Nav = () => {
-  const {getTotalItems} =useCartContext();
+  const {getTotalItems} =UseCartContext();
   return (
     <>
       <nav className="navbar">
