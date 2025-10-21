@@ -1,0 +1,20 @@
+.sci-fi-btn{
+    background: linear-gradient(45deg, #00BBF9, #0077B6) ;
+      border: 1px solid #00D4FF ;
+      color: white ;
+      padding: 12px 24px ;
+      border-radius: 8px ;
+      box-shadow: 0 0 15px rgba(0, 187, 249, 0.4) ;
+      
+      cursor: pointer;
+      transition: all 0.3s ease
+
+}
+.sci-fi-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sci-fi-btn:hover:not(:disabled) {
+  background: #e8e8e8;
+}

@@ -8,11 +8,21 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-section">
           <h4>CompuMundoHiperMegaRed</h4>
-          <ul>
-            <li><a href="/about">Sobre Nosotros</a></li>
-            <li><a href="/contact">Contacto</a></li>
-            <li><a href="/privacy">Política de Privacidad</a></li>
-          </ul>
+          <div className="orden">
+        <div>ItemsListContainer</div>
+        <div>--</div>
+        <div>ItemsList</div>
+        <div>--</div>
+        <div>Items</div>
+      </div>
+      <br />
+      <div className="orden">
+        <div>ItemDetailContainer </div>
+        <div>--</div>
+        <div>ItemDetail</div>
+        
+      </div>
+         
         </div>
         
         <div className="footer-section">

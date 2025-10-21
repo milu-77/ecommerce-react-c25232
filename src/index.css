@@ -23,11 +23,9 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items:initial;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #000814;
+  color: #F8F9FA;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 h1 {
