@@ -1,10 +1,7 @@
-import React from "react";
 import "./Nav.css";
 import { Link } from "react-router-dom";
-import { useCartContext } from '../../context/CartContext/useCartContext'
+import { useCartContext } from '../../context/CartContext/useCartContext'  
   
- 
- 
 const Nav = () => {
     const {getTotalItems} = useCartContext()
   return (
@@ -29,17 +26,13 @@ const Nav = () => {
               <Link to="/ofertas" className="nav-link">
                 Ofertas
               </Link>
-            </li>
-             
+            </li>             
           </ul>
 
           {/* Botón de carrito */}
           <div className="nav-actions"> 
             <button className="cart-button">Carrito  
             {getTotalItems() > 0 && <span className="in-cart">( {getTotalItems() })</span>}
-
-
-
             </button>
           </div>
         </div>
