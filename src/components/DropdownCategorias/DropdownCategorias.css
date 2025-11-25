@@ -1,0 +1,34 @@
+.dropdown-menu-custom {
+     
+    position: absolute;  
+    top: 100%;           
+    left: 0;          
+    z-index: 1000;
+    background-color: #240046;   
+    color: #ffffff;  
+    align-items: center;
+    padding-left: 0;
+    margin: 0;
+}
+.dropdown-custom {
+    position: relative;  
+}
+.dropdown-item-custom{
+    color: #ffffff; 
+    
+}
+.list-categories{
+  list-style-type: none; /* ¡Esta es la propiedad clave! */
+    padding-left: 0; 
+    font-size: medium;
+    padding : 10px 10px 10px 10px;
+     
+
+}
+.list-categories:hover{
+  list-style-type: none; /* ¡Esta es la propiedad clave! */
+     
+    background-color: #00274e; 
+     
+
+}

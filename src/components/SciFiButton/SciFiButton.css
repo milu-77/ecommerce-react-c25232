@@ -7,7 +7,8 @@
       box-shadow: 0 0 15px rgba(0, 187, 249, 0.4) ;
       
       cursor: pointer;
-      transition: all 0.3s ease
+      transition: all 0.3s ease;
+      margin:10px;
 
 }
 .sci-fi-btn:disabled {
@@ -16,5 +17,6 @@
 }
 
 .sci-fi-btn:hover:not(:disabled) {
-  background: #e8e8e8;
-}
+  background: linear-gradient(45deg, #00BBF9, #001832) ;
+   color: white  ;
+} 

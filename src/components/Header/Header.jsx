@@ -1,11 +1,12 @@
 import React from 'react';
 import { useState } from 'react';
 import './Header.css';
+import Nav from '../Nav/Nav';
 
 const Header = () => {
      const [isVisible, setIsVisible] = useState(true);
 
-  if (!isVisible) return null;
+  if (!isVisible) return <Nav />;
   return (
     <>
     <div className="promo-banner">
@@ -24,6 +25,7 @@ const Header = () => {
         </button>
       </div>
     </div>
+    <Nav />
     
     
     

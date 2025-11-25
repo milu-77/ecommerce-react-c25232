@@ -1,22 +1,17 @@
 import { useState } from "react";
 import SciFiButton from "../SciFiButton/SciFiButton";
 import "./ItemDetail.css";
-import { useCartContext } from "../../context/CartContext/useCartContext.js"
+ import { useCartContext } from "../../context/CartContext/useCartContext.js";
+  import { Count } from "../Count/Count" 
 
 function ItemDetail({ ...product }) {
    const {addItem} = useCartContext()
 
-  const [quantity, setQuantity] = useState(1);
-  const handleQuantityChange = (value) => {
-    if (value < 1) return;
-    if (value > product.stock) return;
-    setQuantity(value);
-  };
-  const handleAddToCart = () => {
-    onAddToCart(product, quantity);
-    setQuantity(1); // Resetear después de agregar
-  };
-
+     const handleAdd = (quantity) => {
+       
+    addItem({...product,quantity})
+  }
+ 
   return (
     <div className="product-card">
       <div className="product-resume">
@@ -26,7 +21,6 @@ function ItemDetail({ ...product }) {
         <div className="product-info">
           <h3>{product.name}</h3>
           <p className="author">{product.author}</p>
-
           <p className="publisher">Editorial: {product.publisher} </p>
           <p className="pages">Páginas: {product.pages}</p>
           <p className="year">Año: {product.year}</p>
@@ -34,7 +28,6 @@ function ItemDetail({ ...product }) {
         </div>
       </div>
       <div className="product-summary">{product.longDescription}</div>
-
       <div className="product-price">
          <div className="price-section">
           {product.onSale ? (
@@ -46,58 +39,20 @@ function ItemDetail({ ...product }) {
           ) : (
             <span className="price">${product.price}</span>
           )}
-        </div>
-
-        {/* Stock */}
+        </div>        
         <div className="stock-info">
           {product.stock > 0 ? (
             <span className="in-stock">🟢 {product.stock} disponibles</span>
           ) : (
             <span className="out-of-stock">🔴 Sin stock</span>
           )}
-        </div>
-
-        {/* Selector de cantidad */}
+        </div> 
         {product.stock > 0 && (
-          <div className="quantity-selector">
-            <button
-              onClick={() => handleQuantityChange(quantity - 1)}
-              disabled={quantity <= 1}
-              className="quantity-btn"
-            >
-              -
-            </button>
-
-            <input
-              type="number"
-              value={quantity}
-              min="1"
-              max={product.stock}
-              onChange={(e) =>
-                handleQuantityChange(parseInt(e.target.value) || 1)
-              }
-              className="quantity-input"
-            />
-
-            <button
-              onClick={() => handleQuantityChange(quantity + 1)}
-              disabled={quantity >= product.stock}
-              className="quantity-btn"
-            >
-              +
-            </button>
-          </div>
-        )}
-
-        {/* Botón agregar al carrito */}
-
-        <SciFiButton
-          onClick={()=> {addItem( product)}}
-          disabled={product.stock === 0}
-          stock={product.stock}
-        >
-          {product.stock > 0 ? `Agregar ${quantity} al carrito` : "Sin stock"}
-        </SciFiButton>
+          <>
+            <Count onConfirm={handleAdd} stock={product.stock}/>
+ 
+          </>
+        )}  
       </div>
     </div>
   );

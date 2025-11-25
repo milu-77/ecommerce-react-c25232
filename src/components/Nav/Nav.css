@@ -10,13 +10,17 @@
 
 .nav-container {
   max-width: 1200px;
-  margin: 0 auto;
+   
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   padding: 0 20px;
+  gap: 2rem;
+   
 }
-
+.contenedor > *:not(:last-child) {
+  margin-right: auto; /* El último elemento se va a la derecha */
+}
 /* Logo */
 .nav-logo {
   color: white;
@@ -62,6 +66,7 @@
 .nav-actions {
   display: flex;
   gap: 1rem;
+    margin-left: auto; /* Empuja este elemento a la derecha */
 }
 
 .cart-button {
@@ -78,6 +83,16 @@
 .cart-button:hover {
   background-color: #229954;
   transform: scale(1.05);
+}
+.admin-button {
+  background-color: #240046;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
 }
 
 /* Responsive */

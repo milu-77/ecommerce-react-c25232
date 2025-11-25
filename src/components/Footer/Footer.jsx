@@ -7,21 +7,8 @@ const Footer = () => {
      <footer className="footer">
       <div className="footer-content">
         <div className="footer-section">
-          <h4>CompuMundoHiperMegaRed</h4>
-          <div className="orden">
-        <div>ItemsListContainer</div>
-        <div>--</div>
-        <div>ItemsList</div>
-        <div>--</div>
-        <div>Items</div>
-      </div>
-      <br />
-      <div className="orden">
-        <div>ItemDetailContainer </div>
-        <div>--</div>
-        <div>ItemDetail</div>
-        
-      </div>
+          <h4>Sector 7G</h4>
+          
          
         </div>
         
@@ -36,7 +23,7 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Síguenos</h4>
           <div className="social-links">
-            <a href="#"  ><span>📘 Facebook</span></a>
+            <a href="#"  ><span>Facebook</span></a>
             <a href="#"  ><span>X</span></a>
             <a href="#"  ><span>Instagram</span></a>
             <a href="#"  ><span>LinkedIn</span></a>
@@ -45,7 +32,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        <p>   CompuMundoHiperMegaRed. Todos los derechos reservados.</p>
+        <p>    Sector 7G. Todos los derechos reservados.</p>
       </div>
     </footer>
     
